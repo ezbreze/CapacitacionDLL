@@ -1,0 +1,40 @@
+public String Suma(String a, String b)
+        {
+            double n1, n2, nr;
+            n1= Convert.ToDouble(a);
+            n2 = Convert.ToDouble(b);
+            nr = n1 + n2;
+            String c = Convert.ToString(nr);
+            
+            return c;
+        }
+        public String Resta(String a, String b)
+        {
+            double n1, n2, nr;
+            n1 = Convert.ToDouble(a);
+            n2 = Convert.ToDouble(b);
+            nr = n1 - n2;
+            String c = Convert.ToString(nr);
+
+            return c;
+        }
+        public String Multiplicacion(String a, String b)
+        {
+            double n1, n2, nr;
+            n1 = Convert.ToDouble(a);
+            n2 = Convert.ToDouble(b);
+            nr = n1 * n2;
+            String c = Convert.ToString(nr);
+
+            return c;
+        }
+        public String Division(String a, String b)
+        {
+            double n1, n2, nr;
+            n1 = Convert.ToDouble(a);
+            n2 = Convert.ToDouble(b);
+            nr = n1 / n2;
+            String c = Convert.ToString(nr);
+
+            return c;
+        }
